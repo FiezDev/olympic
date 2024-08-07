@@ -62,7 +62,6 @@
             var youtubeUrl = document.getElementById('youtubeUrl').value;
             var videoId = null;
             
-            // Extract the video ID from the URL
             if (youtubeUrl.includes('youtu.be/')) {
                 videoId = youtubeUrl.split('youtu.be/')[1].split('?')[0];
             } else if (youtubeUrl.includes('v=')) {
